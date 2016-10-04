@@ -1,8 +1,9 @@
-application: helloworld
-version: 1
 runtime: php55
 api_version: 1
 
 handlers:
-- url: /.*
+- url: /
   script: helloworld.php
+
+- url: /jpWaterBookingDetails.txt
+  script: jpWaterBookingDetails.txt
